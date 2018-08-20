@@ -1,9 +1,12 @@
 # 2110211
 intro data struct chula engineer 2110211 (C++)
 
-site: https://nattee.net/grader  
+grader: https://nattee.net/grader  
+tutorial: http://www.cplusplus.com/doc/tutorial/
+  
 ref1: http://www.cplusplus.com/reference/stl/  
 ref2: https://en.cppreference.com/w/cpp/language
+
 
 ## std::vector
 ```cpp

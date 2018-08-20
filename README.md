@@ -25,6 +25,7 @@ for (; it != vec.end(); ++it) {
 }
 
 // c++11 range-based for loop
+// MUST configure compiler before using
 for (uint i = 0; i != vec.size(); ++i) {
   int val = vec[i];
 }

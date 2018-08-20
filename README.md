@@ -28,7 +28,6 @@ for (; it != vec.end(); ++it) {
 for (uint i = 0; i != vec.size(); ++i) {
   int val = vec[i];
 }
-
 ```
 
 ## std::pair
@@ -94,3 +93,4 @@ for (auto pii : mp){
   auto val = pii.second;
 }
 ```
+

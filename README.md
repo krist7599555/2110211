@@ -46,3 +46,25 @@ pi1.second = 999;
 // pi2.first = 5
 // pi2.second = 13
 ```
+
+## std::min, std::max
+```cpp
+#include <algorithm>
+int mx = std::max(4, 20); // mx = 20
+int mn = std::min(9, -1); // mn = -1
+```
+
+## std::swap
+```cpp
+#include <algorithm>
+int a = 1, b = 2;
+std::swap(a, b); // a = 2, b = 1
+```
+
+## std::sort
+```cpp
+#include <algorithm>
+std::vector<int> vec = {4, 1, 5, 2, 3};
+std::sort(vec.begin(), vec.end()); // vec = [1, 2, 3, 4, 5]
+std::sort(vec.begin(), vec.end(), std::grater<int>()); // vec = [5, 4, 3, 2, 1]
+```

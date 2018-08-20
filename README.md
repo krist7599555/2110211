@@ -47,7 +47,8 @@ pi1.second = 999;
 // pi2.second = 13
 ```
 
-## std::min, std::max
+## std::min,
+## std::max
 ```cpp
 #include <algorithm>
 int mx = std::max(4, 20); // mx = 20

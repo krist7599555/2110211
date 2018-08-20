@@ -9,6 +9,26 @@ vec.push_back(3); // vec = [1, 2, 3]
 vec.push_back(4); // vec = [1, 2, 3, 4]
 ```
 
+## for loop
+```cpp
+// c++98 indice
+for (uint i = 0; i != vec.size(); ++i) {
+  int val = vec[i];
+}
+
+// c++98 iterator
+std::vector<int>::iterator it = vec.begin();
+for (; it != vec.end(); ++it) {
+  int val = *it;
+}
+
+// c++11 range-based for loop
+for (uint i = 0; i != vec.size(); ++i) {
+  int val = vec[i];
+}
+
+```
+
 ## std::pair
 ```cpp
 #include <utility>

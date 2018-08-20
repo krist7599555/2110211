@@ -2,7 +2,7 @@
 intro data struct chula engineer 2110211 (C++)
 
 std::vector
-```
+```cpp
 #include <vector>
 std::vector<int> vec = {1, 2};
 vec.push_back(3); // vec = [1, 2, 3]
@@ -11,7 +11,7 @@ vec.push_back(4); // vec = [1, 2, 3, 4]
 
 
 std::pair
-```
+```cpp
 #include <utility>
 std::pair<int, int> pi1(5, 13);
 auto pi2 = pi1;

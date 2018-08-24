@@ -123,4 +123,4 @@ class Integer {
 		return o;
 	}
 };
-``` 
+```

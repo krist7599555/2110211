@@ -102,10 +102,8 @@ for (auto pii : mp){
 ## class Integer
 ```cpp
 class Integer {
-	
  private:
 	int val;
-	
  public:
 	Integer(int _val = 0): val(_val) {}
 	// this++

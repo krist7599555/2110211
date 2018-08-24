@@ -99,4 +99,30 @@ for (auto pii : mp){
   auto val = pii.second;
 }
 ```
-
+## class Integer
+```cpp
+class Integer {
+	
+ private:
+	int val;
+	
+ public:
+	Integer(int _val = 0): val(_val) {}
+	// this++
+	Integer operator++(int){ 
+		int res = val;
+		val += 1;
+		return res;
+	}
+	// ++this
+	Integer operator++() { 
+		val += 1;
+		return val;
+	}
+	// std::cout << Integer
+	friend ostream& operator << (ostream& o, const Integer& i) {
+		o << i.val;
+		return o;
+	}
+};
+```
